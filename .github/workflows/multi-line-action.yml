@@ -4,6 +4,4 @@ jobs:
   runs-on: ubuntu-latest
     steps:
       - name: multi-line commands
-        run: |
-             echo Github actions is a powerfull Automation tool
-             echo It was integrated with github
+        run: echo single output
