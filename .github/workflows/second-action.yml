@@ -1,0 +1,11 @@
+name: multi-line-workflow
+on: workflow_dispatch
+jobs:
+  second-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print multi-line commands
+        run: |
+            echo Github actions is a powerful automation tool
+            echo It was integrated with Github
+  
