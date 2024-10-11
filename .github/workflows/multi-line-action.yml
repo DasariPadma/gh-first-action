@@ -5,5 +5,5 @@ jobs:
     steps:
       - name: multi-line commands
         run: |
-          echo Github actions is a powerfull Automation tool
-          echo It was integrated with github
+             echo Github actions is a powerfull Automation tool
+             echo It was integrated with github
